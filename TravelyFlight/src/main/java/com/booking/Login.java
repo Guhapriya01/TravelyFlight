@@ -57,7 +57,7 @@ public class Login extends HttpServlet {
 				
 				String valid = "false";
 				
-				if(id!=1) {
+				if(id!=-1) {
 					session.setAttribute("username",id);
 					
 					response.sendRedirect("flight.jsp");
