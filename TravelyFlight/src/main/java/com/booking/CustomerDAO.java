@@ -110,10 +110,9 @@ public class CustomerDAO {
 
 		int rowCount = 0, id =-1;
 		
-	    while (rs.next()) {
+	        while (rs.next()) {
 	    	 id = rs.getInt("id");
-	         rowCount++;
-	    }
+	        }
 
 		return id;
 	}
